@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630452524500",
+    "project_id": "yamtar-app",
+    "storage_bucket": "yamtar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630452524500:android:977789a6cf12d688d4f241",
+        "android_client_info": {
+          "package_name": "com.example.yamtar_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630452524500-qeveil7vu8ve0hav0jag8isec9un6kci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5IDBj2X4g5hE711-5bIVfdNLjwAxs2Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630452524500-qeveil7vu8ve0hav0jag8isec9un6kci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
