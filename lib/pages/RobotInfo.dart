@@ -65,7 +65,7 @@ class RobotInfo extends StatelessWidget {
                 child: TextButton(
                   child: Text("Control Device",style: TextStyle(color: Colors.white),),
                   onPressed: ()async{
-                    Navigator.of(context).pushReplacementNamed('/controller');
+                    Navigator.of(context).pushNamed('/controller');
                   },
                 ),
               ),

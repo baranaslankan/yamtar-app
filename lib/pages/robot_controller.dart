@@ -13,6 +13,11 @@ class _Robot_ControllerState extends State<Robot_Controller> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Robot Control"),
+        centerTitle: true,
+        backgroundColor:Colors.indigo[900] ,
+      ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
