@@ -8,6 +8,8 @@ class Robot_Controller extends StatefulWidget {
 }
 
 class _Robot_ControllerState extends State<Robot_Controller> {
+  int x=50,y=120;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +30,7 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                   child: Container(
                     child: Center(
                       child: Text(
-                        "Vehicle Control",
+                        "Robotic Arm",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 20.0,
@@ -58,7 +60,8 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                         ),
                         color: Colors.indigo[900],
                         onPressed: () async {
-
+                          y+=50;
+                          print("${x},${y}");
                         }
                     ),
                   ),
@@ -77,7 +80,8 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                         ),
                         color: Colors.indigo[900],
                         onPressed: () async {
-
+                          x-=50;
+                          print("${x},${y}");
                         }
                     ),
                   ),
@@ -96,7 +100,8 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                         ),
                         color: Colors.indigo[900],
                         onPressed: () async {
-
+                          x+=50;
+                          print("${x},${y}");
                         }
                     ),
                   ),
@@ -115,7 +120,8 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                         ),
                         color: Colors.indigo[900],
                         onPressed: () async {
-
+                          y-=50;
+                          print("${x},${y}");
                         }
                     ),
                   ),
@@ -125,7 +131,7 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                     child: Container(
                       child: Center(
                         child: Text(
-                          "Robotic Arm",
+                          "Handle",
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20.0,
@@ -157,7 +163,7 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                             ),
                             color: Colors.indigo[900],
                             onPressed: () async {
-
+                              print("Keep");
                             }
                         ),
                       ),
@@ -176,7 +182,7 @@ class _Robot_ControllerState extends State<Robot_Controller> {
                             ),
                             color: Colors.indigo[900],
                             onPressed: () async {
-
+                              print("Leave");
                             }
                         ),
                       ),

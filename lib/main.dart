@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yamtar_app/pages/RobotInfo.dart';
 import 'package:yamtar_app/pages/animation_screen.dart';
 import 'package:yamtar_app/pages/log_in.dart';
 import 'package:yamtar_app/pages/password_reset.dart';
@@ -17,6 +18,7 @@ void main()async{
       '/password_reset':(context) => Password_Reset(),
       '/controller':(context)=>Robot_Controller(),
       '/bluetooth':(context)=>BluetoothService(),
+      '/info':(context)=>RobotInfo(),
       
       
     },
